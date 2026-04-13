@@ -1,0 +1,31 @@
+body{
+padding: 0;
+margin: 0;
+background-color:aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.inner{
+    background-color: white;
+    width: min-content;
+    height: min-content;
+    margin-top: 10%;
+    padding: 10px;
+}
+.inner img{
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+}
+.inner h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+    height: fit-content;
+}
+.inner p{
+    font-size: 12px;
+    color: darkgray;
+    width: fit-content;
+    height: max-content;
+}
